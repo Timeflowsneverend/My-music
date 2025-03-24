@@ -56,7 +56,7 @@ h1 {
  * {
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(119, 246, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* border: 1px solid black; */
  }
@@ -65,12 +65,14 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 96vh;
+    
 
  }
  li{
     margin:  auto 45%;
     padding: 1rem 2rem;
     font-size: 30px;
+
  }
  a:hover {
     color: rgb(0, 162, 255);

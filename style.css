@@ -1,79 +1,90 @@
-/* *{
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-.music {
-    margin: 0 auto;
-    width:20%;
-    padding: 1rem;
-    text-align: center;
-    font-size:larger;
-    color: #ffff;
-}
+
 body {
-    height: 96vh;
-    background: url(music/img/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #ffff;
-    padding: 0 1rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
-a {
-    color: #ffff;
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 h1 {
-    display:inline-block;
-    padding: 1rem 2rem;
-    color: #eeee;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-} */
-
-h1 {
-    /* display: flex; */
-    /* align-items: center; */
-    /* padding: 1rem 2rem; */
-    text-align: center;
-    font-size: 60px;
-    /* justify-content: center; */
-    /* margin-top: 2rem; */
-    /* background-color: lightblue; */
-    /* color: #aaaaaa; */
-    /* text-decoration: none; */
-    /* border-radius: 5px; */
-    /* transition: background-color 0.3s ease; */
+    font-size: 2rem;
+    color: #333;
 }
-/* h1:hover {
-    boackground-color: #2980b9;
-} */
- * {
-    margin: 0;
+
+/* Styling the list */
+ol.music {
+    list-style-type: none;
     padding: 0;
-    color: rgb(119, 246, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* border: 1px solid black; */
- }
- body {
-    background: url(music/img/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 96vh;
-    
+}
 
- }
- li{
-    margin:  auto 45%;
-    padding: 1rem 2rem;
-    font-size: 30px;
+ol.music li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
- }
- a:hover {
-    color: rgb(0, 162, 255);
+ol.music li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    display: block;
+}
+
+ol.music li a:hover {
+    color: #007BFF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    ol.music li {
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    ol.music li {
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+
+    ol.music li a {
+        font-size: 1rem;
+    }
+}
+
+/* Adding some spacing and background for mobile devices */
+@media (max-width: 600px) {
+    body {
+        background-color: #e9ecef;
+    }
+
+    ol.music {
+        padding: 10px;
+    }
 }

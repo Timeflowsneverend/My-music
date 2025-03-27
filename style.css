@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 body {
     background: linear-gradient(rgba(80, 80, 80, 0.5),rgba(0, 0, 0, 0.5)),url(img/bg.jpg);
@@ -18,18 +18,14 @@ body {
  }
  div.list ul li{
     text-align: center;
-    /* transition: transform 0.3s ease-in-out; */
-            transition: transform 0.3s ease, color 0.3s ease;
+    
 
  }
  div.list ul li:hover {
-    
-    /* transform: translateX(20px); */
-            transform: translatey(-10px) scale(1.1); /* Move up by 10px and enlarge by 10% */
-            color: #ff6347;
+    transform: scale(1.2);
  }
 .music {
-    padding: 20px;
+    padding: 10px;
 } 
 .music li {
     padding: 10px;
@@ -50,12 +46,10 @@ button {
 a {
     text-decoration: none;
     color: Yellow  ;
-    /* transition: color 0.3s ease; */
+    transition: color 0.3s ease-in-out;
 }
 a:hover {
     color: rgba(255, 217, 0, 0.692);
-    /* transition: .5s; */
-    /* transform:matrix(1, 0, 0, 1, 0, 0); */
 }
 a:active {
     color: white;

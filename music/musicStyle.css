@@ -5,6 +5,19 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
 }
+header div {
+    transform: 0.3s ease-in-out;
+
+}
+header div:hover{
+    transform:scale(1.1);
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: gray;
+}
 
 body {
     font-family: 'Arial', sans-serif;

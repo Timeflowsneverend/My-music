@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    border: 1px solid black;
+    text-align: center;
+    /* border: 1px solid black; */
 }
 body {
     background: linear-gradient(rgba(80, 80, 80, 0.5),rgba(0, 0, 0, 0.5)),url(img/bg.jpg);
@@ -16,13 +17,8 @@ body {
     padding: 20px;
     color: silver;
  }
- div.list ul li{
-    text-align: center;
-    
-
- }
  div.list ul li:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
  }
 .music {
     padding: 10px;

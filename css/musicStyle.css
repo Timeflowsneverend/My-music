@@ -9,9 +9,9 @@ header div {
     transform: 0.3s ease-in-out;
 
 }
-header div:hover{
+/* header div:hover{
     transform:scale(1.1);
-}
+} */
 a:hover {
     color: green;
 }

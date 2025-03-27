@@ -3,14 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.8;
-    background-color: #f0f0f0;
+    background-color: #333;
     padding: 20px;
-    color: #333;
+    color: orange;
 }
 
 /* Header */
@@ -28,7 +29,7 @@ nav div a {
 
 /* Lyrics Section */
 .lyrics {
-    background-color: #fff;
+    background-color: #333;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
@@ -40,12 +41,12 @@ nav div a {
 .lyrics h1 {
     font-size: 2rem;
     text-align: center;
-    color: #333;
+    color: white;
 }
 
-.lyrics p {
+.lyrics div {
     font-size: 1.1rem;
-    color: #555;
+    color: white;
     text-align: center;
 }
 
@@ -117,4 +118,5 @@ audio {
     width: 100%;
     max-width: 600px;
     border-radius: 5px;
+    background-color: transparent;
 }

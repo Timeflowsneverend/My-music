@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+body {
+    background: linear-gradient(rgba(80, 80, 80, 0.5),rgba(0, 0, 0, 0.5)),url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 96vh;
+}
+ h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: silver;
+ }
+ div.list ul li{
+    text-align: center;
+    /* transition: transform 0.3s ease-in-out; */
+            transition: transform 0.3s ease, color 0.3s ease;
+
+ }
+ div.list ul li:hover {
+    
+    /* transform: translateX(20px); */
+            transform:  scale(1.1); /* Move up by 10px and enlarge by 10% */
+            color: #ff6347;
+ }
+.music {
+    padding: 20px;
+} 
+.music li {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    list-style-type: none; 
+}
+button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    font-size: 20px;
+}
+.button {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: Yellow  ;
+    /* transition: color 0.3s ease; */
+}
+a:hover {
+    color: rgba(255, 217, 0, 0.692);
+    /* transition: .5s; */
+    /* transform:matrix(1, 0, 0, 1, 0, 0); */
+}
+a:active {
+    color: white;
+}
+a.mp-download {
+    color: gray
+}
+a.mp-download:hover {
+    color: white;
+}
+a.mp-download:active {
+    color: black;
+}

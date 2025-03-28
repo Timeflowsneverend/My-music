@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* border: 1px solid pink; */
 }
 header div {
     transform: 0.3s ease-in-out;
@@ -13,10 +13,10 @@ header div {
     transform:scale(1.1);
 } */
 a:hover {
-    color: green;
+    color: yellow;
 }
 a:active {
-    color: gray;
+    color: gold;
 }
 
 body {
@@ -30,14 +30,39 @@ body {
 /* Header */
 header {
     background-color: #212121;
+    display: grid;
     padding: 10px;
     text-align: center;
+    border-radius: 10px;
+    /* color: black; */
+    /* border: 1px solid red; */
 }
-
+nav {
+    /* border: 1px solid purple; */
+    /* color: black; */
+    padding: 2px 5px;
+    margin: 0 auto;
+    max-width: 100px;
+    background-color: gray;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+nav:hover{
+    transform:scale(1.1);
+}
+/* nav div {
+    border: 1px solid yellow;
+    padding: 0;
+    margin: 0;
+    color: black;
+} */
 nav div a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 1.2rem;
+}
+nav div a:active {
+    color: gold;
 }
 
 /* Lyrics Section */

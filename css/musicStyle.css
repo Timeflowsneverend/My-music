@@ -5,19 +5,20 @@
     box-sizing: border-box;
     /* border: 1px solid pink; */
 }
-header div {
+/* header div {
     transform: 0.3s ease-in-out;
+    border: 1px solid red;
 
-}
+} */
 /* header div:hover{
     transform:scale(1.1);
 } */
-a:hover {
-    color: yellow;
+/* a:hover {
+    color: rgba(255, 255, 255, 0.664);
 }
 a:active {
     color: gold;
-}
+} */
 
 body {
     font-family: 'Arial', sans-serif;
@@ -29,41 +30,44 @@ body {
 
 /* Header */
 header {
-    background-color: #212121;
+    background-color: #5c5b5b8e;
     display: grid;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
     /* color: black; */
     /* border: 1px solid red; */
 }
-nav {
-    /* border: 1px solid purple; */
-    /* color: black; */
+/* nav {
+    border: 1px solid white;
+    color: black;
     padding: 2px 5px;
     margin: 0 auto;
     max-width: 100px;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    transition: .2s ease-in-out;
-}
-nav:hover{
+    transition: .3s ease-in-out;
+    box-shadow: 3px 3px 3px  black;
+} */
+/* nav:hover{
     transform:scale(1.1);
-}
+    box-shadow: 30px 30px 30px black;
+} */
 /* nav div {
     border: 1px solid yellow;
     padding: 0;
     margin: 0;
     color: black;
 } */
-nav div a {
+/* nav div a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.2rem;
 }
 nav div a:active {
-    color: gold;
-}
+    color: black;
+} */
 
 /* Lyrics Section */
 .lyrics {
@@ -71,7 +75,7 @@ nav div a:active {
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 5px black;
     max-width: 800px;
     margin: 20px auto;
 }
@@ -92,21 +96,53 @@ nav div a:active {
 .jacket {
     text-align: center;
     margin-top: 20px;
+    /* border: 1px solid red; */
 }
 
 .cta-button {
-    background-color: #007BFF;
-    color: #fff;
+    background-color:  #0056b3;
+    color: #ffffffa6;
     text-decoration: none;
     padding: 15px 30px;
     font-size: 1.2rem;
     border-radius: 50px;
     display: inline-block;
-    transition: background-color 0.3s ease;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid white;
+}
+.btn {
+    color: rgba(255, 255, 255, 0.849);
+    background-color: gray;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #007BFF ;
+    box-shadow: 30px 30px 30px black;
+    transform:scale(1.1);
+    color: white;
+}
+.btn:hover {
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 30px 30px 30px black;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+/* .btn:active {
+    transform:scale(.9);
+} */
+.cta-button:active,.btn:active {
+    color: black;
+    transform: scale(0.8);
+    transition: .1s ease-in-out;
 }
 
 /* Responsive Design */
@@ -150,6 +186,8 @@ nav div a:active {
 .audio-player {
     text-align: center;
     margin: 20px 0;
+    /* box-shadow: 10px 10px 10px solid; */
+    /* border: 1px solid red; */
 }
 
 audio {

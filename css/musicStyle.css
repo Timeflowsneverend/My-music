@@ -2,30 +2,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /* border: 1px solid pink; */
 }
-/* header div {
-    transform: 0.3s ease-in-out;
-    border: 1px solid red;
-
-} */
-/* header div:hover{
-    transform:scale(1.1);
-} */
-/* a:hover {
-    color: rgba(255, 255, 255, 0.664);
-}
-a:active {
-    color: gold;
-} */
 
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.8;
     background-color: #333;
     padding: 20px;
-    color: orange;
+    /* color: orange; */
 }
 
 /* Header */
@@ -36,38 +20,7 @@ header {
     text-align: center;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
-    /* color: black; */
-    /* border: 1px solid red; */
 }
-/* nav {
-    border: 1px solid white;
-    color: black;
-    padding: 2px 5px;
-    margin: 0 auto;
-    max-width: 100px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    transition: .3s ease-in-out;
-    box-shadow: 3px 3px 3px  black;
-} */
-/* nav:hover{
-    transform:scale(1.1);
-    box-shadow: 30px 30px 30px black;
-} */
-/* nav div {
-    border: 1px solid yellow;
-    padding: 0;
-    margin: 0;
-    color: black;
-} */
-/* nav div a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-}
-nav div a:active {
-    color: black;
-} */
 
 /* Lyrics Section */
 .lyrics {
@@ -96,7 +49,6 @@ nav div a:active {
 .jacket {
     text-align: center;
     margin-top: 20px;
-    /* border: 1px solid red; */
 }
 
 .cta-button {
@@ -110,6 +62,7 @@ nav div a:active {
     transition: 0.2s ease-in-out;
     box-shadow: 5px 5px 5px black;
     border: 1px solid white;
+    border: 1px solid red;
 }
 .btn {
     color: rgba(255, 255, 255, 0.849);
@@ -127,22 +80,19 @@ nav div a:active {
 .cta-button:hover {
     background-color: #007BFF ;
     box-shadow: 30px 30px 30px black;
-    transform:scale(1.1);
+    transform:scale(1.3);
     color: white;
 }
 .btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: white;
     box-shadow: 30px 30px 30px black;
     background-color: rgba(255, 255, 255, 0.555);
 }
-/* .btn:active {
-    transform:scale(.9);
-} */
 .cta-button:active,.btn:active {
     color: black;
     transform: scale(0.8);
-    transition: .1s ease-in-out;
+    transition: .1s ease;
 }
 
 /* Responsive Design */
@@ -186,8 +136,6 @@ nav div a:active {
 .audio-player {
     text-align: center;
     margin: 20px 0;
-    /* box-shadow: 10px 10px 10px solid; */
-    /* border: 1px solid red; */
 }
 
 audio {
@@ -196,3 +144,8 @@ audio {
     border-radius: 5px;
     background-color: transparent;
 }
+
+::selection {
+    background-color: #00bcd4;
+    color: #222;
+  }
